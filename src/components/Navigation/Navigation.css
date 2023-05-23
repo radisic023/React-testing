@@ -1,0 +1,44 @@
+.navbar {
+    background-color: rgb(249, 250, 254) !important;
+    /*border-bottom: 1px solid rgb(227, 232, 244) !important;*/
+}
+
+.navbar .navbar-nav .nav-link {
+    color: rgb(36, 51, 90) !important;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link .badge {
+    background-color: var(--Orange) !important;
+    border: 1px solid var(--Orange) !important;
+    color: var(--White) !important;
+    font-size: 10px !important;
+    position: relative;
+    vertical-align: top;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.navbar .btn-login {
+    background: var(--Red);
+    background: -webkit-linear-gradient(to right, var(--Orange), var(--Red));
+    background-image: var(--Firewatch);
+    border: 1px solid var(--Firewatch);
+    padding: 7px 21px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.dropdown-item {
+    font-weight: 500 !important;
+    color: var(--Color-Title) !important;
+}
+
+.dropdown-item span {
+    font-weight: 400 !important;
+    color: var(--Color-Text) !important;
+    font-size: 14px !important;
+}

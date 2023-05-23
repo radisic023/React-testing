@@ -1,0 +1,43 @@
+header {
+    position:relative;
+    height: 24rem;
+    background: var(--Red);
+    background: -webkit-linear-gradient(to right, var(--Orange), var(--Red));
+    background-image: url('../../images/bubles.svg'), var(--Firewatch);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+
+header h1 strong {
+    position: relative;
+}
+
+header h1 strong:after {
+    background-image: url('../../images/curve.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 0;
+    content: "";
+    height: max(.2em,.5rem,.5rem);
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+section.features .card {
+    background: var(--White);
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    -webkit-box-shadow: 0 12px 24px rgba(0,38,97,.05),0 2px 4px rgba(0,38,97,.05),0 0 0 1px rgba(0,38,97,.07);
+    box-shadow: 0 12px 24px rgba(0,38,97,.05),0 2px 4px rgba(0,38,97,.05),0 0 0 1px rgba(0,38,97,.07);
+    transition: all .4s;
+}
+
+section.features .card:hover {
+    transform:translateY(-12px);
+}

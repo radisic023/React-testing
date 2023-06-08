@@ -15,6 +15,10 @@ body {
   color: var(--Color-Text) !important;
 }
 
+.container-custom {
+  max-width: 1560px;
+}
+
 .white-text {
   color: var(--White);
 }

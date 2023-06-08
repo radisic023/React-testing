@@ -1,5 +1,8 @@
 import React from 'react';
 import {Container, Row, Col, Card} from 'react-bootstrap';
+import OwlCarousel from 'react-owl-carousel';  
+import 'owl.carousel/dist/assets/owl.carousel.css';  
+import 'owl.carousel/dist/assets/owl.theme.default.css'; 
 import './Home.css';
 /*import {Link} from "react-router-dom";*/
 
@@ -56,6 +59,32 @@ export function Home() {
                     </Col>
                 </Row>
             </Container>
+        </section>
+
+        <section className='offers py-5'>
+            <div className='container-fluid container-custom'>
+                <div className='row'>
+                    <div className='col-lg-4'>
+                        <div className='site_title mb-5'>
+                            <h2>What we right now offering</h2>
+                            <p className='mb-0'>Our current offer of game hosting is constantly evolving and adapting to the needs of our customers. We update our hosting and add new features such as cloud backups and an easy to use admin panel. Decide who has access to your server and what permissions they will receive.</p>
+                        </div>
+                    </div>
+                    <div className='col-lg-8'>
+                        <OwlCarousel items={3} className="owl-theme" loop nav margin={8}>  
+                            <Card>
+                                <Card.Body>Test</Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Body>Test 2</Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Body>Test 3</Card.Body>
+                            </Card>
+                        </OwlCarousel> 
+                    </div>
+                </div>
+            </div>
         </section>
         </>
     )

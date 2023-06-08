@@ -41,3 +41,9 @@ section.features .card {
 section.features .card:hover {
     transform:translateY(-12px);
 }
+
+section.offers .site_title h2 {
+    color: var(--Color-Title);
+    font-weight: 700;
+    font-size: 48px;
+}
